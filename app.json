@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/rollfinder.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lydotwav.rollfinder"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bc281b45-341d-4d9c-859f-224fe819016b"
+      }
     }
   }
 }
