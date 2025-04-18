@@ -11,7 +11,8 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b",
+        "gradleCommand": ":app:assembleDebug"
       },
       "ios": {
         "simulator": true
@@ -20,7 +21,8 @@
     "production": {
       "distribution": "store",
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "gradleCommand": ":app:bundleRelease"
       },
       "ios": {
       }
