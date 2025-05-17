@@ -9,10 +9,10 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts({
-    'MedievalSharp': require('@/assets/fonts/MedievalSharp-Regular.ttf'),
-    'Lora': require('@/assets/fonts/Lora-Regular.ttf'),
-    'Lora-Bold': require('@/assets/fonts/Lora-Bold.ttf'),
-    'Lora-Italic': require('@/assets/fonts/Lora-Italic.ttf'),
+    'MedievalSharp': require('../assets/fonts/MedievalSharp-Regular.ttf'),
+    'Lora': require('../assets/fonts/Lora-Regular.ttf'),
+    'Lora-Bold': require('../assets/fonts/Lora-Bold.ttf'),
+    'Lora-Italic': require('../assets/fonts/Lora-Italic.ttf'),
   });
 
   useEffect(() => {
